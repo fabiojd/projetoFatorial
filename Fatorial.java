@@ -1,5 +1,5 @@
 public class Fatorial {
-	/* metodo iterativo do calculo Fatorial */
+	/* metodo iterativo do calculo Fatorial, incluindo teste para n = 0 */
 	public int calcularFatorial(int n) throws IllegalArgumentException {
 		if (n < 0) {
 			throw new IllegalArgumentException ("não existe fatorial para números negativos");
